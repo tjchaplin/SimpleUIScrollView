@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C346312B138833ED006A4CA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C346312A138833ED006A4CA0 /* UIKit.framework */; };
+		C346312D138833ED006A4CA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C346312C138833ED006A4CA0 /* Foundation.framework */; };
+		C346312F138833ED006A4CA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C346312E138833ED006A4CA0 /* CoreGraphics.framework */; };
+		C3463135138833ED006A4CA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3463133138833ED006A4CA0 /* InfoPlist.strings */; };
+		C3463138138833ED006A4CA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3463137138833ED006A4CA0 /* main.m */; };
+		C346313B138833ED006A4CA0 /* Simple_UIScrollViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C346313A138833ED006A4CA0 /* Simple_UIScrollViewAppDelegate.m */; };
+		C346313E138833ED006A4CA0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C346313C138833ED006A4CA0 /* MainWindow.xib */; };
+		C3463141138833ED006A4CA0 /* Simple_UIScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3463140138833ED006A4CA0 /* Simple_UIScrollViewViewController.m */; };
+		C3463144138833ED006A4CA0 /* Simple_UIScrollViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3463142138833ED006A4CA0 /* Simple_UIScrollViewViewController.xib */; };
+		C346314B138833EE006A4CA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C346312A138833ED006A4CA0 /* UIKit.framework */; };
+		C346314C138833EE006A4CA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C346312C138833ED006A4CA0 /* Foundation.framework */; };
+		C346314D138833EE006A4CA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C346312E138833ED006A4CA0 /* CoreGraphics.framework */; };
+		C3463155138833EE006A4CA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3463153138833EE006A4CA0 /* InfoPlist.strings */; };
+		C3463158138833EE006A4CA0 /* Simple_UIScrollViewTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C3463157138833EE006A4CA0 /* Simple_UIScrollViewTests.h */; };
+		C346315A138833EE006A4CA0 /* Simple_UIScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3463159138833EE006A4CA0 /* Simple_UIScrollViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C346314E138833EE006A4CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C346311D138833EB006A4CA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3463125138833EC006A4CA0;
+			remoteInfo = "Simple-UIScrollView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3463126138833EC006A4CA0 /* Simple-UIScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple-UIScrollView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C346312A138833ED006A4CA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C346312C138833ED006A4CA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C346312E138833ED006A4CA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3463132138833ED006A4CA0 /* Simple-UIScrollView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple-UIScrollView-Info.plist"; sourceTree = "<group>"; };
+		C3463134138833ED006A4CA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3463136138833ED006A4CA0 /* Simple-UIScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple-UIScrollView-Prefix.pch"; sourceTree = "<group>"; };
+		C3463137138833ED006A4CA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3463139138833ED006A4CA0 /* Simple_UIScrollViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_UIScrollViewAppDelegate.h; sourceTree = "<group>"; };
+		C346313A138833ED006A4CA0 /* Simple_UIScrollViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_UIScrollViewAppDelegate.m; sourceTree = "<group>"; };
+		C346313D138833ED006A4CA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C346313F138833ED006A4CA0 /* Simple_UIScrollViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_UIScrollViewViewController.h; sourceTree = "<group>"; };
+		C3463140138833ED006A4CA0 /* Simple_UIScrollViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_UIScrollViewViewController.m; sourceTree = "<group>"; };
+		C3463143138833ED006A4CA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Simple_UIScrollViewViewController.xib; sourceTree = "<group>"; };
+		C346314A138833EE006A4CA0 /* Simple-UIScrollViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple-UIScrollViewTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3463152138833EE006A4CA0 /* Simple-UIScrollViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple-UIScrollViewTests-Info.plist"; sourceTree = "<group>"; };
+		C3463154138833EE006A4CA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3463156138833EE006A4CA0 /* Simple-UIScrollViewTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple-UIScrollViewTests-Prefix.pch"; sourceTree = "<group>"; };
+		C3463157138833EE006A4CA0 /* Simple_UIScrollViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_UIScrollViewTests.h; sourceTree = "<group>"; };
+		C3463159138833EE006A4CA0 /* Simple_UIScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_UIScrollViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3463123138833EC006A4CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C346312B138833ED006A4CA0 /* UIKit.framework in Frameworks */,
+				C346312D138833ED006A4CA0 /* Foundation.framework in Frameworks */,
+				C346312F138833ED006A4CA0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3463146138833EE006A4CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C346314B138833EE006A4CA0 /* UIKit.framework in Frameworks */,
+				C346314C138833EE006A4CA0 /* Foundation.framework in Frameworks */,
+				C346314D138833EE006A4CA0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C346311B138833EB006A4CA0 = {
+			isa = PBXGroup;
+			children = (
+				C3463130138833ED006A4CA0 /* Simple-UIScrollView */,
+				C3463150138833EE006A4CA0 /* Simple-UIScrollViewTests */,
+				C3463129138833EC006A4CA0 /* Frameworks */,
+				C3463127138833EC006A4CA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3463127138833EC006A4CA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3463126138833EC006A4CA0 /* Simple-UIScrollView.app */,
+				C346314A138833EE006A4CA0 /* Simple-UIScrollViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3463129138833EC006A4CA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C346312A138833ED006A4CA0 /* UIKit.framework */,
+				C346312C138833ED006A4CA0 /* Foundation.framework */,
+				C346312E138833ED006A4CA0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3463130138833ED006A4CA0 /* Simple-UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				C3463139138833ED006A4CA0 /* Simple_UIScrollViewAppDelegate.h */,
+				C346313A138833ED006A4CA0 /* Simple_UIScrollViewAppDelegate.m */,
+				C346313C138833ED006A4CA0 /* MainWindow.xib */,
+				C346313F138833ED006A4CA0 /* Simple_UIScrollViewViewController.h */,
+				C3463140138833ED006A4CA0 /* Simple_UIScrollViewViewController.m */,
+				C3463142138833ED006A4CA0 /* Simple_UIScrollViewViewController.xib */,
+				C3463131138833ED006A4CA0 /* Supporting Files */,
+			);
+			path = "Simple-UIScrollView";
+			sourceTree = "<group>";
+		};
+		C3463131138833ED006A4CA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3463132138833ED006A4CA0 /* Simple-UIScrollView-Info.plist */,
+				C3463133138833ED006A4CA0 /* InfoPlist.strings */,
+				C3463136138833ED006A4CA0 /* Simple-UIScrollView-Prefix.pch */,
+				C3463137138833ED006A4CA0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3463150138833EE006A4CA0 /* Simple-UIScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3463157138833EE006A4CA0 /* Simple_UIScrollViewTests.h */,
+				C3463159138833EE006A4CA0 /* Simple_UIScrollViewTests.m */,
+				C3463151138833EE006A4CA0 /* Supporting Files */,
+			);
+			path = "Simple-UIScrollViewTests";
+			sourceTree = "<group>";
+		};
+		C3463151138833EE006A4CA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3463152138833EE006A4CA0 /* Simple-UIScrollViewTests-Info.plist */,
+				C3463153138833EE006A4CA0 /* InfoPlist.strings */,
+				C3463156138833EE006A4CA0 /* Simple-UIScrollViewTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3463125138833EC006A4CA0 /* Simple-UIScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C346315D138833EE006A4CA0 /* Build configuration list for PBXNativeTarget "Simple-UIScrollView" */;
+			buildPhases = (
+				C3463122138833EC006A4CA0 /* Sources */,
+				C3463123138833EC006A4CA0 /* Frameworks */,
+				C3463124138833EC006A4CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple-UIScrollView";
+			productName = "Simple-UIScrollView";
+			productReference = C3463126138833EC006A4CA0 /* Simple-UIScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3463149138833EE006A4CA0 /* Simple-UIScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3463160138833EE006A4CA0 /* Build configuration list for PBXNativeTarget "Simple-UIScrollViewTests" */;
+			buildPhases = (
+				C3463145138833EE006A4CA0 /* Sources */,
+				C3463146138833EE006A4CA0 /* Frameworks */,
+				C3463147138833EE006A4CA0 /* Resources */,
+				C3463148138833EE006A4CA0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C346314F138833EE006A4CA0 /* PBXTargetDependency */,
+			);
+			name = "Simple-UIScrollViewTests";
+			productName = "Simple-UIScrollViewTests";
+			productReference = C346314A138833EE006A4CA0 /* Simple-UIScrollViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C346311D138833EB006A4CA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Tick Tock Development";
+			};
+			buildConfigurationList = C3463120138833EB006A4CA0 /* Build configuration list for PBXProject "Simple-UIScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C346311B138833EB006A4CA0;
+			productRefGroup = C3463127138833EC006A4CA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3463125138833EC006A4CA0 /* Simple-UIScrollView */,
+				C3463149138833EE006A4CA0 /* Simple-UIScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3463124138833EC006A4CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3463135138833ED006A4CA0 /* InfoPlist.strings in Resources */,
+				C346313E138833ED006A4CA0 /* MainWindow.xib in Resources */,
+				C3463144138833ED006A4CA0 /* Simple_UIScrollViewViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3463147138833EE006A4CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3463155138833EE006A4CA0 /* InfoPlist.strings in Resources */,
+				C3463158138833EE006A4CA0 /* Simple_UIScrollViewTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3463148138833EE006A4CA0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3463122138833EC006A4CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3463138138833ED006A4CA0 /* main.m in Sources */,
+				C346313B138833ED006A4CA0 /* Simple_UIScrollViewAppDelegate.m in Sources */,
+				C3463141138833ED006A4CA0 /* Simple_UIScrollViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3463145138833EE006A4CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C346315A138833EE006A4CA0 /* Simple_UIScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C346314F138833EE006A4CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3463125138833EC006A4CA0 /* Simple-UIScrollView */;
+			targetProxy = C346314E138833EE006A4CA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3463133138833ED006A4CA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3463134138833ED006A4CA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C346313C138833ED006A4CA0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C346313D138833ED006A4CA0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C3463142138833ED006A4CA0 /* Simple_UIScrollViewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3463143138833ED006A4CA0 /* en */,
+			);
+			name = Simple_UIScrollViewViewController.xib;
+			sourceTree = "<group>";
+		};
+		C3463153138833EE006A4CA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3463154138833EE006A4CA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C346315B138833EE006A4CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C346315C138833EE006A4CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C346315E138833EE006A4CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple-UIScrollView/Simple-UIScrollView-Prefix.pch";
+				INFOPLIST_FILE = "Simple-UIScrollView/Simple-UIScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C346315F138833EE006A4CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple-UIScrollView/Simple-UIScrollView-Prefix.pch";
+				INFOPLIST_FILE = "Simple-UIScrollView/Simple-UIScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C3463161138833EE006A4CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple-UIScrollView.app/Simple-UIScrollView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple-UIScrollViewTests/Simple-UIScrollViewTests-Prefix.pch";
+				INFOPLIST_FILE = "Simple-UIScrollViewTests/Simple-UIScrollViewTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C3463162138833EE006A4CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple-UIScrollView.app/Simple-UIScrollView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple-UIScrollViewTests/Simple-UIScrollViewTests-Prefix.pch";
+				INFOPLIST_FILE = "Simple-UIScrollViewTests/Simple-UIScrollViewTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3463120138833EB006A4CA0 /* Build configuration list for PBXProject "Simple-UIScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C346315B138833EE006A4CA0 /* Debug */,
+				C346315C138833EE006A4CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C346315D138833EE006A4CA0 /* Build configuration list for PBXNativeTarget "Simple-UIScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C346315E138833EE006A4CA0 /* Debug */,
+				C346315F138833EE006A4CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3463160138833EE006A4CA0 /* Build configuration list for PBXNativeTarget "Simple-UIScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3463161138833EE006A4CA0 /* Debug */,
+				C3463162138833EE006A4CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C346311D138833EB006A4CA0 /* Project object */;
+}
